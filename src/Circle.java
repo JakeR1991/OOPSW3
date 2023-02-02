@@ -22,6 +22,10 @@ public class Circle {
         area = Math.PI * this.radius * this.radius;
         return area;
     }
+    // Method to calculate the perimeter (circumference) of the circle
+    public double getPerimeter() {
+        return 2 * Math.PI * radius;
+    }
     public void setArea(double area) {
         this.area = area;
     }
